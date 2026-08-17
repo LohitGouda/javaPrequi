@@ -6,10 +6,10 @@ public class sum {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
-        int sum = 1;
+        int sum = 0;
 
         for (int i = 1; i <= n; i++) {
-            sum = sum * i;
+            sum = sum +i*i;
         }
 
         System.out.println("The factorialof first n numbers is: " + sum);
